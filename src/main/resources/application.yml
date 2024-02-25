@@ -1,0 +1,16 @@
+spring:
+  cloud:
+    config:
+      enabled: false
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/click_uz_auto_payments
+    username: postgres
+    password: ismoil_0709
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+eureka:
+  client:
+    enabled: false
